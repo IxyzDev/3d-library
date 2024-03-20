@@ -2,32 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
+/* global.css */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color-primary: #AC3ED9;
+  --color-secondary: #18003F;
+  --color-secondary-2: #0F0026;
+  --color-tertiary: #1FD9B7;
+  --color-quaternary: #F12B29;
+
+  --color-off-white: #f8f8f8
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* Text colors */
+.text-primary {
+  color: var(--color-primary);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.text-secondary {
+  color: var(--color-secondary);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.text-tertiary {
+  color: var(--color-tertiary);
 }
+
+.text-quaternary {
+  color: var(--color-quaternary);
+}
+
+/* Background colors */
+.bg-primary {
+  background-color: var(--color-off-white);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--color-tertiary);
+}
+
+.bg-quaternary {
+  background-color: var(--color-quaternary);
+}
+
+/* Button colors */
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.btn-tertiary {
+  background-color: var(--color-tertiary);
+  color: white;
+}
+
+.btn-quaternary {
+  background-color: var(--color-quaternary);
+  color: white;
+}
+
