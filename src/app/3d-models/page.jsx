@@ -1,11 +1,14 @@
 import Link from 'next/link';
 import NavBar from '@/components/navbar/NavBar';
 
+import Card from '@/components/model/Card';
+
 function page() {
   return (
     <>
       <NavBar />
       <main className="text-gray-600 body-font">
+        <Card />
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col">
             <div className="h-1 bg-gray-200 rounded overflow-hidden">
@@ -24,7 +27,7 @@ function page() {
           </div>
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
             <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-              <Link href="/model">
+              <Link href="/3d-models/model">
                 <div className="rounded-lg h-64 overflow-hidden">
                   <img
                     alt="content"
@@ -45,9 +48,9 @@ function page() {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                   >
@@ -78,9 +81,9 @@ function page() {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
                 >
@@ -109,9 +112,9 @@ function page() {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
                 >
