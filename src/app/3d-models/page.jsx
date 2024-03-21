@@ -1,14 +1,11 @@
 import Link from 'next/link';
 import NavBar from '@/components/navbar/NavBar';
 
-import Card from '@/components/model/Card';
-
 function page() {
   return (
     <>
       <NavBar />
       <main className="text-gray-600 body-font">
-        <Card />
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col">
             <div className="h-1 bg-gray-200 rounded overflow-hidden">
