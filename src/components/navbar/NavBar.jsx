@@ -4,7 +4,7 @@ import Image from 'next/image';
 function NavBar() {
   return (
     <header className="navbar">
-      <div className=" flex h-14 px-4 items-center justify-between">
+      <div className=" flex h-14 px-8 items-center justify-between">
         <div className="items-center">
           <Link href="/">
             <div className="flex font-medium items-center  ">
