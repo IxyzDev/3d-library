@@ -4,13 +4,11 @@
 
 /* global.css */
 :root {
-  --color-primary: #AC3ED9;
-  --color-secondary: #18003F;
-  --color-secondary-2: #0F0026;
-  --color-tertiary: #1FD9B7;
-  --color-quaternary: #F12B29;
-
-  --color-off-white: #f8f8f8
+  --color-primary: #EBEAE8;
+  --color-secondary: #D9A84E;
+  --color-secondary-2: #C19055;
+  --color-tertiary: #7FA1AD;
+  --color-quaternary: #313238;
 }
 
 /* Text colors */
@@ -32,11 +30,11 @@
 
 /* Background colors */
 .bg-primary {
-  background-color: var(--color-off-white);
+  background-color: var(--color-primary);
 }
 
 .bg-secondary {
-  background-color: var(--color-secondary);
+  background-color: var(--color-quaternary);
 }
 
 .bg-tertiary {
@@ -68,3 +66,7 @@
   color: white;
 }
 
+/* clases personalizadas */
+.navbar {
+  @apply bg-secondary sticky top-0 z-50  flex-none duration-500 lg:z-50 text-primary ;
+}
